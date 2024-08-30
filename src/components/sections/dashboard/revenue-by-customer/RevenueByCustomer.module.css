@@ -1,0 +1,33 @@
+/* RevenueByCustomer.module.css */
+
+.hiddenOnSmall {
+    display: none;
+  }
+
+  .visibleOnSmall {
+    display: block;
+  }
+
+  @media (min-width: 960px) {
+    .hiddenOnSmall {
+      display: block;
+    }
+
+    .visibleOnSmall {
+      display: none;
+    }
+  }
+
+  .flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+  }
+
+  .columnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+  }
